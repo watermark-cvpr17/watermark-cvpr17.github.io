@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Paper 781: On the Effectiveness of Visible Watermarks</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="container">
+  <h1 align="center">On the Effectiveness of Visible Watermarks</h1>
+  <h2 align="center">Supplementary Material</h2>
+  <p align="center">&nbsp;</p>
+  <p align="left">We show the input and results for a subset of images sampled randomly from each dataset  (the total number of images in each dataset appears below). Note that the processing uses more images than just the sampled ones shown below for each dataset, as detailed in the paper (Section 5).</p>
+  <p align="left">&nbsp;</p>
+  <h3 align="left">Results on Stock Images (Section 5.1)</h3>
+  <p align="left">Supplements Figure 6 in the paper. For each dataset we show 50 randomly sampled input (watermarked) images, and results for the first 20 of those images that we have licensed from the stock image providers. All the following results were produced completely automatically, without any user input.</p>
+  <p align="left">&nbsp;</p>
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+      <tr>
+        <td><img src="images/AdobeStock.jpg" width="260" alt=""/></td>
+        <td width="20">&nbsp;</td>
+        <td><p><strong>&quot;AdobeStock&quot;</strong></p>
+          <p>422 images. Source: <a href="http://stock.adobe.com/" target="_blank">http://stock.adobe.com/</a>.</p>
+          <p><a href="AdobeStock/input.html">Sampled input images</a><br />
+            <a href="AdobeStock/watermark.html">Estimated watermark</a><br />
+            <a href="AdobeStock/recon.html">Sampled watermark removal results</a></p></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><img src="images/fotolia.jpg" width="260" alt=""/></td>
+        <td>&nbsp;</td>
+        <td><p><strong>&quot;fotolia&quot;</strong></p>
+          <p>285 images. Source: <a href="http://www.fotolia.com/" target="_blank">http://www.fotolia.com/</a>.</p>
+          <p><a href="fotolia/input.html">Sampled input images</a><br />
+            <a href="fotolia/watermark.html">Estimated watermark</a><br />
+          <a href="fotolia/recon.html">Sampled watermark removal results</a></p></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><img src="images/123RF.jpg" width="260" alt=""/></td>
+        <td>&nbsp;</td>
+        <td><p><strong>&quot;123RF&quot;</strong></p>
+          <p>1376 images. Source: <a href="http://www.123rf.com/">http://www.123rf.com/</a></p>
+          <p><a href="123RF/input.html">Sampled input images</a><br />
+            <a href="123RF/watermark.html">Estimated watermark</a><br />
+            <a href="123RF/recon.html">Sampled watermark removal results</a></p></td>
+        </td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>        
+      </tr>
+      <tr>
+        <td><img src="images/CanStockPhoto.jpg" width="260" alt=""/></td>
+        <td>&nbsp;</td>
+        <td><p><strong>&quot;CanStockPhoto&quot;</strong></p>
+          <p>4086 images. Source: <a href="http://www.canstockphoto.com/" target="_blank">http://www.canstockphoto.com/</a>.</p>
+          <p><a href="CanStockPhoto/input.html">Sampled input images</a><br />
+            <a href="CanStockPhoto/watermark.html">Estimated watermark</a><br />
+            <a href="CanStockPhoto/recon.html">Sampled watermark removal results</a></p></td>
+        <td>        
+      </tr>
+    </tbody>
+  </table>
+  <p>&nbsp;</p>
+  <h3 align="left">Results on Synthetic Datasets (Section 5.2):</h3>
+  <p align="left">  Results on watermarked image collections we generated for the evaluation in the paper. Input and results are shown for 50 images sampled randomly from each dataset. In these examples the position of the watermark in each image was sampled randomly. We can then bootstrap the processing by getting from the user a rough bounding box around the watermark in one of the images (&quot;user input&quot; below). The rest of the processing is fully automatic.</p>
+  <p align="left">&nbsp;</p>
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td><img src="images/COCO_Copyright.jpg" width="260" alt=""/></td>
+        <td width="20">&nbsp;</td>
+        <td><p><strong>&quot;COCO_Copyright&quot;</strong></p>
+          <p>1000 images. Source: <a href="http://mscoco.org/">Microsoft COCO dataset</a> (images), <a href="http://www.canstockphoto.com/copyright-stamp-11110299.html">CanStockPhoto</a> (watermark).</p>
+          <p><a href="COCO_Copyright/input.html">Sampled input images</a><br />
+            <a href="COCO_Copyright\user_input.jpg">User input</a><br />
+            <a href="COCO_Copyright/watermark.html">Estimated watermark</a><br />
+          <a href="COCO_Copyright/recon.html">Sampled watermark removal results</a></p>
+          <br /></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><img src="images/COCO_CVPR2017.jpg" width="260" alt=""/></td>
+        <td>&nbsp;</td>
+        <td><p><strong>&quot;COCO_CVPR2017</strong><strong>&quot;</strong></p>
+          <p>1000 images. Source: <a href="http://mscoco.org/">Microsoft COCO dataset</a> (images), <a href="http://cvpr2017.thecvf.com/">CVPR2017</a> (watermark).</p>
+          <p><a href="COCO_CVPR2017/input.html">Sampled input images</a><br />
+            <a href="COCO_CVPR2017/user_input.jpg">User input</a><br />
+            <a href="COCO_CVPR2017/watermark.html">Estimated watermark</a><br />
+        <a href="COCO_CVPR2017/recon.html">Sampled watermark removal results</a></p></td>
+      </tr>
+    </tbody>
+  </table>
+  <p>&nbsp;</p>
+  <h3>Robustness to Watermark Variations (Section 5.3)</h3>
+  <p>The affect of different, per-image watermark variations on the removal attack (supplements Figure 5 in the paper).</p>
+  <p><a href="variations/COCO_CVPR2017/variations.html">COCO_CVPR2017</a> - 50 randomly sampled images from the COCO_CVPR2017 dataset.</p>
+  <p><a href="variations/COCO_Copyright/variations.html">COCO_Copyright</a> - 50 randomly sampled images from the COCO_Copyright dataset.<br />
+    <br />
+  </p>
+  <p><a href="perturbation/perturbation.html">Spatial perturbation</a> - Example of the subtle spatial deformations we apply to the watermark to introduce geometric inconsistencies across the watermarked collection.</p>
+  <p>&nbsp;</p>
+</div>
+</body>
+</html>

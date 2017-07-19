@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Spatial Perturbation</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<h1 align="center">Spatial Perturbation</h1>
+<p align="center">&nbsp;</p>
+<table align="center" width="1000">
+<tr>
+  <td colspan="2"><p>We generated small spatial perturbations by smoothing two i.i.d random noise images (for the x and y components of the perturbation) with a Gaussian filter. We limit the maximum perturbation in each direction to a defined value (we used a maximum 0.5 and 1 pixels). We then used those as displacement fields to warp the original watermark and alpha matte (using bilinear interpolation).</p>
+  <p>Here is an example of a generated perturbation field and its affect on a watermark:</p></td></tr>
+<tr><td width="582" align="center"><p><img src="flow.png" width="400" height="64" alt=""/></p></td>
+  <td width="406" align="center"><img src="colormap_spatial.jpg" alt="" height="160"/></td>
+</tr>
+<tr valign="top">
+  <td align="center">Generated subtle perturbation field</td>
+  <td align="center">Deformation color coding<br />
+    (max saturation = 1px)</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+<table width="1000" align="center">
+  <tr>
+    <td colspan="2"><p>The perturbation field applied to the watermark: (hover the mouse over the links to change the display)</p></td>
+  </tr>
+</table>
+<table cellspacing="12" align="center">
+  <tr>
+      <td align="center" valign="top"><a href="000004_COCO_val2014_000000410650-watermark.png" onmouseover="document.getElementById('display_image_1').src='000004_COCO_val2014_000000410650-watermark.png'">No perturbation (original watermark)</a>
+      <td align="center" valign="top"><a href="000004_COCO_val2014_000000410650-watermark-p0.5.png" onmouseover="document.getElementById('display_image_1').src='000004_COCO_val2014_000000410650-watermark-p0.5.png'">0.5px (max) perturbation</a>
+      <td align="center" valign="top"><a href="000004_COCO_val2014_000000410650-watermark-p1.png" onmouseover="document.getElementById('display_image_1').src='000004_COCO_val2014_000000410650-watermark-p1.png'">1px (max) perturbation</a></td>
+  </tr>
+</table>
+<table align="center">
+    <tr>
+      <td><table border="0" cellpadding="4">
+		<td><img style="max-height:1000px" id="display_image_1" src="000004_COCO_val2014_000000410650-watermark.png" border="0"/></td>
+        </table></td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+  <table width="1000" align="center">
+    <tr>
+      <td colspan="2"><p>The original and subtly-deformed watermarks above embedded in an image: (hover the mouse over the links to change the display)</p></td>
+    </tr>
+  </table>
+  <table cellspacing="12" align="center">
+    <tr>
+      <td align="center" valign="top"><a href="000004_COCO_val2014_000000410650.jpg" onmouseover="document.getElementById('display_image_2').src='000004_COCO_val2014_000000410650.jpg'">No perturbation (original watermark)</a></td>
+      <td align="center" valign="top"><a href="000004_COCO_val2014_000000410650-p0.5.jpg" onmouseover="document.getElementById('display_image_2').src='000004_COCO_val2014_000000410650-p0.5.jpg'">0.5px (max) perturbation</a></td>
+      <td align="center" valign="top"><a href="000004_COCO_val2014_000000410650-p1.jpg" onmouseover="document.getElementById('display_image_2').src='000004_COCO_val2014_000000410650-p1.jpg'">1px (max) perturbation</a></td>
+    </tr>
+</table>
+  <table align="center">
+    <tr>
+      <td><table border="0" cellpadding="4">
+        <tr>
+          <td><img style="max-height:1000px" id="display_image_2" src="000004_COCO_val2014_000000410650.jpg" border="0"/></td>
+        </tr>
+      </table></td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+  
+</body>
+</html>
