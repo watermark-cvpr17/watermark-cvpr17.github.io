@@ -1,227 +1,167 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html><head>
+<html>
+<head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+<title>visible watermarks</title>
+<link href="tali.css" rel="stylesheet" type="text/css">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-65563403-2', 'auto');
+  ga('send', 'pageview');
 
+</script>
+</head>
 
-
-
-  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>visible watermarks</title>
-  <link href="tali.css" rel="stylesheet" type="text/css"></head><body>
+<body>
 <table style="text-align: left; width: 1148px; height: 1392px; margin-left: auto; margin-right: auto;" border="0" cellpadding="3" cellspacing="2">
-
-        <tbody>
-          <tr>
-            <td style="vertical-align: top; width: 150px;"><img style="width: 50px; height: 50px;" alt="" src="figs/logo_research.png">
-            </td>
-            <td style="vertical-align: middle; text-align: left; font-weight: bold; color: rgb(102, 102, 102); width: 1033px;">
-            <big style="font-weight: normal;"><span style="font-family: AppleGothic;">Google Research</span></big><big><span style="font-family: AppleGothic;"></span></big></td>
-
-            <td style="vertical-align: top;"><br>
-
-
-            </td>
-          </tr>
-<tr>
-
-
-            <td style="height: 56px; width: 59px;"><br>
-            </td>
-            <td style="text-align: center; font-family: Georgia; font-weight: bold; height: 56px; color: rgb(27, 114, 144); width: 1033px;"><span style="font-size: 27pt; line-height: 115%; font-family: AppleGothic; color: rgb(75, 75, 75);"><small>On the Effectiveness of Visible Watermarks </small><br>
-
-            </span></td>
-
-            <td style="height: 56px; width: 299px;">&nbsp; <a href="index.html"><br></a></td>
-
-          </tr>
-          
-          <tr>
-
-            <td style="height: 29px; width: 59px;"><br>
-            </td>
-
-            <td style="text-align: center; font-family: Georgia; font-weight: bold; color: rgb(102, 102, 102); height: 29px; width: 1033px;"><big><span style="font-family: AppleGothic;"></span></big>
-            <table style="text-align: left; width: 994px; height: 37px; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
-
-              <tbody>
-                <tr>
-
-                  <td style="vertical-align: top; text-align: center; width: 186px;"><a href="http://people.csail.mit.edu/talidekel/"><big><span style="font-family: AppleGothic;">Tali Dekel</span></big></a></td>
-                  <td style="vertical-align: top; text-align: center; width: 206px;"><big><span style="font-family: AppleGothic;"><a href="http://people.csail.mit.edu/mrub/"><span style="text-decoration: underline;">Michael Rubinstein</span></a>
-
-</span></big></td>
-                  <td style="vertical-align: top; text-align: center; width: 183px;"><big><span style="font-family: AppleGothic;"><a href="http://people.csail.mit.edu/celiu/">Ce Liu</a> </span></big></td>
-
-
-
-                  <td style="vertical-align: top; text-align: center; width: 256px;"><big><span style="font-family: AppleGothic;"><a href="https://billf.mit.edu/">William T. Freeman</a></span></big></td>
-
-                </tr>
-                <tr>
-                  
-                  
-                  
-                  
-                </tr>
-
-
-              </tbody>
-            </table><br><table style="text-align: left; margin-right: auto; width: 1054px; margin-left: auto;" border="0" cellpadding="2" cellspacing="2"><tbody><tr><td style="vertical-align: top; width: 139px; text-align: center;"><big><span style="font-family: AppleGothic;">CVPR 2017</span></big> <br></td></tr><tr><td style="vertical-align: top;"><br></td></tr></tbody></table>
-
-
-
-
-            <big><span style="font-family: AppleGothic;">
-
-            </span></big></td>
-            <td style="height: 29px; width: 299px;">&nbsp;<br>
-
-            </td>
-          </tr>
-
-          <tr>
-
-            <td style="vertical-align: top; width: 59px; height: 286px;"><br>
-            </td>
-
-            <td style="vertical-align: top; text-align: center; width: 1033px; height: 286px;"><big><span style="font-size: 10pt; font-family: &quot;Georgia&quot;,&quot;serif&quot;;"><big style="color: rgb(51, 51, 51);"><big><span style="font-weight: bold;"><big><img style="width: 1000px; height: 278px;" alt="" src="figs/watermark_teaser.jpg"><br>
-
-            </big></span></big></big></span></big></td>
-
-            <td style="vertical-align: top; height: 286px;"><br>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="vertical-align: top; width: 59px; height: 116px;"><br>
-            </td>
-            <td style="vertical-align: top; width: 1033px; height: 116px;"><span style="font-family: AppleGothic;">W</span><span style="font-family: AppleGothic;">e
-show that visible watermarks as employed by photographers and stock
-content marketplaces can be removed automatically. While removing a
-watermark from a single image automatically is extremely challenging,
-watermarks are typically added in a consistent manner to many images
-(a). We show that this consistency can be exploited to automatically
-infer the watermark pattern (b) and to obtain the original,
-watermark-free content with high accuracy (c). We then investigate and
-report how robust such an attack is to different types of
-inconsistencies that may be introduced in the watermarking process to
-improve its security, such as randomly changing the watermark's
-position and blend factor, or applying subtle geometric deformation to
-the watermark when embedding it in each image.</span><br>
-
-
-            </td>
-            <td style="vertical-align: top; height: 116px;"><br>
-            </td>
-
-
-          </tr>
-          
-<tr>
-            <td style="height: 174px; width: 59px;">&nbsp;<br>
-            </td>
-
-            <td style="height: 174px; width: 1033px;">
-
-            <div style="text-align: center;"></div>
-
-<big><big>            </big></big><table style="text-align: left; width: 964px; height: 141px;" border="0" cellpadding="0" cellspacing="0">
-
-              <tbody>
-
-                <tr>
-                  <td style="text-align: left;"><span style="font-family: AppleGothic;">&nbsp;</span><b><span style="font-size: 30pt; line-height: 115%; font-family: &quot;Britannic Bold&quot;,&quot;sans-serif&quot;; color: rgb(75, 75, 75);"><small><small>Abstract</small></small>&nbsp;</span></b><span style="font-family: AppleGothic;"></span> <big><span style="font-family: AppleGothic;"><br><small>Visible
-watermarking is a widely-used technique for marking and protecting
-copyrights of many millions of images on the web, yet it suffers from
-an inherent security flaw--watermarks are typically added in a
-consistent manner to many images. We show that this consistency allows
-to automatically estimate the watermark and recover the original images
-with high accuracy. Specifically, we present a generalized multi-image
-matting algorithm that&nbsp; takes a watermarked image collection as input
-and automatically estimates the ``foreground'' (watermark), its alpha
-matte, and&nbsp; the ``background'' (original) images.&nbsp; Since such an attack
-relies on the consistency of watermarks across image collection, we
-explore and evaluate how it is affected by various types of
-inconsistencies in the watermark embedding that could potentially be
-used to make watermarking more secured.&nbsp; We demonstrate the algorithm
-on stock imagery available on the web, and provide extensive
-quantitative analysis on synthetic watermarked data. A key takeaway
-message of this paper is that visible watermarks should be designed to
-not only be robust against removal from a single image, but to be more
-resistant to mass-scale removal from image collections as well.</small></span></big><big><span style="font-size: 10pt; font-family: &quot;Georgia&quot;,&quot;serif&quot;;"><big><br>
-
-
-
-
-                  </big></span></big></td>
-
-                </tr>
-              </tbody>
-            </table>
-<big><big>            <big><span style="font-size: 10pt; font-family: &quot;Georgia&quot;,&quot;serif&quot;;"></span></big><big><span style="font-size: 10pt; font-family: &quot;Georgia&quot;,&quot;serif&quot;;"></span></big><big><span style="font-size: 10pt; font-family: &quot;Georgia&quot;,&quot;serif&quot;;"><big style="color: rgb(51, 51, 51);"><big><span style="font-weight: bold;"></span></big></big></span></big></big></big></td>
-            <td style="height: 174px; width: 299px;"><br>
-            </td>
-
-
-          </tr>
-
-          
-          
-          
-          
-          
-          <tr>
-
-            <td style="vertical-align: top; width: 59px;"><br>
-            </td>
-            <td style="vertical-align: top; font-family: Courier; width: 1033px;"><small>
-            </small><br>
-</td>
-            <td style="vertical-align: top;"><br>
-
-
-            </td>
-          </tr>
-
-          <tr>
-
-
-            <td style="vertical-align: top; width: 59px; height: 106px;"><br>
-            </td>
-            <td style="vertical-align: top; width: 1033px; height: 106px;"><b><span style="font-size: 30pt; line-height: 115%; font-family: &quot;Britannic Bold&quot;,&quot;sans-serif&quot;; color: rgb(75, 75, 75);"><small><small>Paper</small></small><br></span></b><table style="text-align: left; width: 964px; height: 93px;" border="0" cellpadding="2" cellspacing="2"><tbody><tr><td style="vertical-align: top; text-align: center;"><a href="http://watermark-cvpr17.github.io/watermark_cvpr17.pdf"><img style="border: 0px solid ; width: 138px; height: 173px;" alt="" src="figs/EmbeddedImage.jpg"></a><br></td><td style="vertical-align: top;"><span style="font-family: AppleGothic;">"On The Effectiveness Of Visible Watermarks", </span><small><br></small><span style="font-family: AppleGothic;">Tali Dekel, Michael Rubinstein, Ce Liu and William T. Freeman,<br>Conference on Computer Vision and Pattern Recongnition (CVPR), 2017</span><small><br></small><span style="font-family: AppleGothic;">[<a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Dekel_On_the_Effectiveness_CVPR_2017_paper.pdf">PDF</a>]</span><br></td></tr></tbody></table><small style="font-family: Courier New;"><big></big><br>
-
-
-
-            </small></td>
-            <td style="vertical-align: top; font-family: Courier New; height: 106px;"><br>
-            </td>
-          </tr>
-          <tr>
-            <td style="vertical-align: top; height: 51px;"><br>
-            </td>
-            <td style="vertical-align: top; height: 51px; text-align: left;"><b><span style="font-size: 30pt; line-height: 115%; font-family: &quot;Britannic Bold&quot;,&quot;sans-serif&quot;; color: rgb(75, 75, 75);"><small><small>Supplementary Material</small></small><br>
-
-
-
-</span></b></td>
-
-
-            <td style="vertical-align: top; height: 51px;"><br>
-            </td>
-          </tr>
-<tr><td style="vertical-align: top; height: 138px;"><br></td><td style="vertical-align: top; height: 138px;"><table style="text-align: left; width: 964px; height: 93px;" border="0" cellpadding="2" cellspacing="2"><tbody><tr><td style="vertical-align: top; text-align: center; width: 183px;"><a href="http://watermark-cvpr17.github.io/supplemental"><span style="text-decoration: underline;"><img style="border: 0px solid ; width: 150px; height: 113px;" alt="" src="figs/000007_COCO_val2014_000000297669.png"></span></a><br>
-</td>
-<td style="vertical-align: top; width: 761px;"><big><span style="font-family: AppleGothic;"><small>Additional results for watermark removal and the affect of random watermark variations on the removal attack </small><br><br>[<a href="http://watermark-cvpr17.github.io/supplemental">Link</a>]</span></big><br></td>
-
-
-</tr></tbody></table></td><td style="vertical-align: top; height: 138px;"><br></td></tr>
-
-          
-
-
-        </tbody>
-      
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; width: 150px;"><img style="width: 50px; height: 50px;" alt="" src="figs/logo_research.png"></td>
+      <td style="vertical-align: middle; text-align: left; font-weight: bold; color: rgb(102, 102, 102); width: 1033px;"><big style="font-weight: normal;"><span style="font-family: AppleGothic;">Google Research</span></big><big><span style="font-family: AppleGothic;"></span></big></td>
+      <td style="vertical-align: top;"><br></td>
+    </tr>
+    <tr>
+      <td style="height: 56px; width: 59px;"><br></td>
+      <td style="text-align: center; font-family: Georgia; font-weight: bold; height: 56px; color: rgb(27, 114, 144); width: 1033px;"><span style="font-size: 27pt; line-height: 115%; font-family: AppleGothic; color: rgb(75, 75, 75);"><small>On the Effectiveness of Visible Watermarks </small><br>
+        </span></td>
+      <td style="height: 56px; width: 299px;">&nbsp; <a href="index.html"><br>
+        </a></td>
+    </tr>
+    <tr>
+      <td style="height: 29px; width: 59px;"><br></td>
+      <td style="text-align: center; font-family: Georgia; font-weight: bold; color: rgb(102, 102, 102); height: 29px; width: 1033px;"><big><span style="font-family: AppleGothic;"></span></big>
+        <table style="text-align: left; width: 994px; height: 37px; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
+          <tbody>
+            <tr>
+              <td style="vertical-align: top; text-align: center; width: 186px;"><a href="http://people.csail.mit.edu/talidekel/"><big><span style="font-family: AppleGothic;">Tali Dekel</span></big></a></td>
+              <td style="vertical-align: top; text-align: center; width: 206px;"><big><span style="font-family: AppleGothic;"><a href="http://people.csail.mit.edu/mrub/"><span style="text-decoration: underline;">Michael Rubinstein</span></a> </span></big></td>
+              <td style="vertical-align: top; text-align: center; width: 183px;"><big><span style="font-family: AppleGothic;"><a href="http://people.csail.mit.edu/celiu/">Ce Liu</a> </span></big></td>
+              <td style="vertical-align: top; text-align: center; width: 256px;"><big><span style="font-family: AppleGothic;"><a href="https://billf.mit.edu/">William T. Freeman</a></span></big></td>
+            </tr>
+            <tr> </tr>
+          </tbody>
+        </table>
+        <br>
+        <table style="text-align: left; margin-right: auto; width: 1054px; margin-left: auto;" border="0" cellpadding="2" cellspacing="2">
+          <tbody>
+            <tr>
+              <td style="vertical-align: top; width: 139px; text-align: center;"><big><span style="font-family: AppleGothic;">CVPR 2017</span></big> <br></td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;"><br></td>
+            </tr>
+          </tbody>
+        </table>
+        <big><span style="font-family: AppleGothic;"> </span></big></td>
+      <td style="height: 29px; width: 299px;">&nbsp;<br></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; width: 59px; height: 286px;"><br></td>
+      <td style="vertical-align: top; text-align: center; width: 1033px; height: 286px;"><big><span style="font-size: 10pt; font-family: &quot;Georgia&quot;,&quot;serif&quot;;"><big style="color: rgb(51, 51, 51);"><big><span style="font-weight: bold;"><big><img src="figs/watermark_teaser.jpg" width="1000" alt=""/><br>
+        </big></span></big></big></span></big></td>
+      <td style="vertical-align: top; height: 286px;"><br></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; width: 59px; height: 116px;"><br></td>
+      <td style="vertical-align: top; width: 1033px; height: 116px;"><span style="font-family: AppleGothic;">W</span><span style="font-family: AppleGothic;">e
+        show that visible watermarks as employed by photographers and stock
+        content marketplaces can be removed automatically. While removing a
+        watermark from a single image automatically is extremely challenging,
+        watermarks are typically added in a consistent manner to many images
+        (a). We show that this consistency can be exploited to automatically
+        infer the watermark pattern (b) and to obtain the original,
+        watermark-free content with high accuracy (c). We then investigate and
+        report how robust such an attack is to different types of
+        inconsistencies that may be introduced in the watermarking process to
+        improve its security, such as randomly changing the watermark's
+        position and blend factor, or applying subtle geometric deformation to
+        the watermark when embedding it in each image.</span><br></td>
+      <td style="vertical-align: top; height: 116px;"><br></td>
+    </tr>
+    <tr>
+      <td style="height: 174px; width: 59px;">&nbsp;<br></td>
+      <td style="height: 174px; width: 1033px;"><div style="text-align: center;"></div>
+        <big><big> </big></big>
+        <table style="text-align: left; width: 964px; height: 141px;" border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+            <tr>
+              <td style="text-align: left;"><span style="font-family: AppleGothic;">&nbsp;</span><b><span style="font-size: 30pt; line-height: 115%; font-family: &quot;Britannic Bold&quot;,&quot;sans-serif&quot;; color: rgb(75, 75, 75);"><small><small>Abstract</small></small>&nbsp;</span></b><span style="font-family: AppleGothic;"></span> <big><span style="font-family: AppleGothic;"><br>
+                <small>Visible
+                watermarking is a widely-used technique for marking and protecting
+                copyrights of many millions of images on the web, yet it suffers from
+                an inherent security flaw--watermarks are typically added in a
+                consistent manner to many images. We show that this consistency allows
+                to automatically estimate the watermark and recover the original images
+                with high accuracy. Specifically, we present a generalized multi-image
+                matting algorithm that&nbsp; takes a watermarked image collection as input
+                and automatically estimates the ``foreground'' (watermark), its alpha
+                matte, and&nbsp; the ``background'' (original) images.&nbsp; Since such an attack
+                relies on the consistency of watermarks across image collection, we
+                explore and evaluate how it is affected by various types of
+                inconsistencies in the watermark embedding that could potentially be
+                used to make watermarking more secured.&nbsp; We demonstrate the algorithm
+                on stock imagery available on the web, and provide extensive
+                quantitative analysis on synthetic watermarked data. A key takeaway
+                message of this paper is that visible watermarks should be designed to
+                not only be robust against removal from a single image, but to be more
+                resistant to mass-scale removal from image collections as well.</small></span></big><big><span style="font-size: 10pt; font-family: &quot;Georgia&quot;,&quot;serif&quot;;"><big><br>
+                </big></span></big></td>
+            </tr>
+          </tbody>
+        </table>
+        <big><big> <big><span style="font-size: 10pt; font-family: &quot;Georgia&quot;,&quot;serif&quot;;"></span></big><big><span style="font-size: 10pt; font-family: &quot;Georgia&quot;,&quot;serif&quot;;"></span></big><big><span style="font-size: 10pt; font-family: &quot;Georgia&quot;,&quot;serif&quot;;"><big style="color: rgb(51, 51, 51);"><big><span style="font-weight: bold;"></span></big></big></span></big></big></big></td>
+      <td style="height: 174px; width: 299px;"><br></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; width: 59px;"><br></td>
+      <td style="vertical-align: top; font-family: Courier; width: 1033px;"><small> </small><br></td>
+      <td style="vertical-align: top;"><br></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; width: 59px; height: 106px;"><br></td>
+      <td style="vertical-align: top; width: 1033px; height: 106px;"><b><span style="font-size: 30pt; line-height: 115%; font-family: &quot;Britannic Bold&quot;,&quot;sans-serif&quot;; color: rgb(75, 75, 75);"><small><small>Paper</small></small><br>
+        </span></b>
+        <table width="923" border="0" cellpadding="2" cellspacing="2" style="text-align: left; width: 964px; height: 93px;">
+          <tbody>
+            <tr>
+              <td width="183" style="vertical-align: top; text-align: center;"><a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Dekel_On_the_Effectiveness_CVPR_2017_paper.pdf"><img src="figs/EmbeddedImage.jpg" alt="" width="140" style="border: 0px solid ; width: 138px; height: 173px;"></a><br></td>
+              <td width="767" style="vertical-align: top;"><span style="font-family: AppleGothic;">"On The Effectiveness Of Visible Watermarks", </span><small><br>
+                </small><span style="font-family: AppleGothic;">Tali Dekel, Michael Rubinstein, Ce Liu and William T. Freeman,<br>
+                Conference on Computer Vision and Pattern Recongnition (CVPR), 2017</span><small><br>
+              </small><span style="font-family: AppleGothic;">[<a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Dekel_On_the_Effectiveness_CVPR_2017_paper.pdf">PDF</a>]</span><br></td>
+            </tr>
+          </tbody>
+        </table>
+        <small style="font-family: Courier New;"><big></big><br>
+        </small></td>
+      <td style="vertical-align: top; font-family: Courier New; height: 106px;"><br></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; height: 51px;"><br></td>
+      <td style="vertical-align: top; height: 51px; text-align: left;"><b><span style="font-size: 30pt; line-height: 115%; font-family: &quot;Britannic Bold&quot;,&quot;sans-serif&quot;; color: rgb(75, 75, 75);"><small><small>Supplementary Material</small></small><br>
+        </span></b></td>
+      <td style="vertical-align: top; height: 51px;"><br></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; height: 138px;"><br></td>
+      <td style="vertical-align: top; height: 138px;"><table width="963" border="0" cellpadding="2" cellspacing="2" style="text-align: left; width: 964px; height: 93px;">
+          <tbody>
+            <tr>
+              <td width="183" style="vertical-align: top; text-align: center; width: 183px;"><a href="http://watermark-cvpr17.github.io/supplemental"><img src="figs/000007_COCO_val2014_000000297669.jpg" width="140" alt=""/></a><br></td>
+              <td width="767" style="vertical-align: top; width: 761px;"><big><span style="font-family: AppleGothic;"><small>Additional results for watermark removal and the affect of random watermark variations on the removal attack </small><br>
+                [<a href="http://watermark-cvpr17.github.io/supplemental">Link</a>]</span></big><br></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td style="vertical-align: top; height: 138px;"><br></td>
+    </tr>
+  </tbody>
 </table>
 <br>
-
 <b><span style="font-size: 13.5pt; font-family: &quot;Georgia&quot;,&quot;serif&quot;; color: rgb(102, 102, 102);"></span></b><b><span style="font-size: 30pt; line-height: 115%; font-family: &quot;Britannic Bold&quot;,&quot;sans-serif&quot;; color: rgb(75, 75, 75);"></span></b>
-</body></html>
+</body>
+</html>
