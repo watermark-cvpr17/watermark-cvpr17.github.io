@@ -1,9 +1,10 @@
 /* CSS Document */
 
 body {
-	font: 13px "Arial", Helvetica, sans-serif;
+	font: 14px "Arial", Helvetica, sans-serif;
 	color: #000;
 	background-color: #fff;
+	line-height: 1.2em;
 }
 
 .container {
